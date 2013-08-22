@@ -4,16 +4,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
-    <meta NAME="description" CONTENT="Software Testing Academy provides technical and development training for Testers and QA Engineers">
-    <meta NAME="keywords" CONTENT="automated,software,testing,development,software industry,software tester,quality assurance,cdt, ET, context driven testing, exploratory testing, automation, rails, nodejs, ">
-
     <title>Software Testing Academy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">   
-    <meta property="og:image" content="" />  
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
@@ -110,34 +105,6 @@
         font: bold;
       }
 
-      .videoWrapper {
-        position: relative;
-        padding-bottom: 56.25%; /* 16:9 */
-        padding-top: 25px;
-        padding-left: 250px;
-        height: 0;
-      }
-      .videoWrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-
-        /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
-       div.addthis_toolbox {
-        width:180px;
-        margin: 0 auto;
-        float: right;
-       }
-       
-      .nav {
-
-        float: right;
-
-      }
-
     </style>
   </head>
   <body>
@@ -177,23 +144,6 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
-
-             <!-- AddThis Button BEGIN -->
-
-              <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-                <a class="addthis_button_preferred_1"></a>
-                <a class="addthis_button_preferred_2"></a>
-                <a class="addthis_button_google_plusone_share"></a>
-                <a class="addthis_button_compact"></a>
-
-              </div>
-              <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-              <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5215f2d23b0c9e8a"></script>
-             </div>
-
-
-            <!-- AddThis Button END -->
-
     </nav>
 
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
@@ -226,11 +176,71 @@
         </div>
       -->
 
-      <div class="videoWrapper">
-    <!-- Copy & Pasted from YouTube -->
-    <iframe width="560" height="349" src="//www.youtube.com/embed/fbZKfaww2tk" frameborder="0" allowfullscreen></iframe>
-    </div>
+             <div class="span5 offset3 actions">
+          <div class="row-fluid">
+          <div class="span8 offset2">
+            <div class="row-fluid statistics">
+              <div class="span4">
+                <!-- linediv-l and linediv-r give dividing lines that look
+                different in horizontal and vertical layouts, illustrating
+                media queries. -->
+                <div class="linediv-l">
+                <h3>1000</h3> <p>backers</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-c">
+                  <h3>$6000</h3> <p>of $10,000</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-r">
+                <h3>10</h3> <p>days left</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid">
+          <div class="span10 offset1">
+            <!-- Bootstrap progress bar -->
+            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+            <div class="thermometer progress active">
+              <div class="bar bar-success" style="width: 60%;"></div>
+              <div class="bar bar-warning" style="width: 40%;"></div>
+            </div>
+          </div>
+          </div>
+          <div class="row-fluid">
+          <div class="span6 offset3 order">
+            <!-- Standard Bootstrap button. -->
+            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+            <a class="coinbase-button" data-code="8288953343befaacda617a4a73e3538f" href="https://coinbase.com/checkouts/8288953343befaacda617a4a73e3538f">Pay With Bitcoin
+            </a>
+            <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+          </div>
+          </div>
+          <div class="row-fluid">
+          <div class="span8 offset2 social">
+            <!-- Social buttons are not included in default Bootstrap. -->
+            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
 
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+              <a class="addthis_button_preferred_1"></a>
+              <a class="addthis_button_preferred_2"></a>
+              <a class="addthis_button_compact"></a>
+              <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+             <script type="text/javascript">var addthis_config = 
+              {"data_track_addressbar":true};</script>
+             <script type="text/javascript" 
+                     src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e5f5d9549fdf9b"></script>
+            <!-- AddThis Button END -->
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
 
         <!-- initial section -->
 
