@@ -9,13 +9,17 @@
     <meta NAME="keywords" CONTENT="automated,software,testing,development,software industry,software tester,quality assurance,cdt, ET, context driven testing, exploratory testing, automation, rails, nodejs, ">
 
     <title>Software Testing Academy</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet"> 
+    <link href="http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">   
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> 
+
+        <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet"> 
+        <link href="http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">   
+
     <meta property="og:image" content="" />  
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           rel="stylesheet" type="text/css">
@@ -161,13 +165,21 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
+
+<!--
+
           <button type="button" class="btn btn-navbar"
                   data-toggle="collapse" data-target=".nav-collapse">
+
+-->                  
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Software Testing Academy</a>
+          <a class="brand" href="#" style="padding-left:20px;">Software Testing Academy</a>
+
+<!--
+
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -175,6 +187,7 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
+
         </div>
       </div>
 
@@ -237,7 +250,12 @@
 
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
+
+        <img class="img-polaroid" alt="Ruby on Rails" src="http://placehold.it/450x250">
+
+<!--        
           <img class="img-polaroid" alt="Ruby on Rails" src="https://s3.amazonaws.com/Testacademy/images/Rails-logo.jpg">
+-->          
         </div>
         <div class="span5 copy">
 		      <div class="sectionheading">Testing Tools</div><br>
@@ -278,7 +296,11 @@
         </div>
 
         <div class="span5 asset">
+
+        <img class="img-polaroid" alt="iOS 6 and 7" src="http://placehold.it/450x250">
+        <!--
           <img class="img-polaroid" alt="iOS 6 and 7" src="https://s3.amazonaws.com/Testacademy/images/ios.jpg">
+         --> 
         </div>
       </div>
 
@@ -286,7 +308,12 @@
 
         <div class="row-fluid section3">
         <div class="span5 offset1 asset">
+        <img class="img-polaroid" alt="Ruby on Rails" src="http://placehold.it/450x250">
+<!--
+
           <img class="img-polaroid" alt="Ruby on Rails" src="https://s3.amazonaws.com/Testacademy/images/Rails-logo.jpg">
+
+-->          
         </div>
         <div class="span5 copy">
         <div class="sectionheading">Real World Testing </div><br>
@@ -300,44 +327,11 @@
 	        </div>
 	      </div>
 
-      <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
-      <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
-      <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
-
-      <div class="row-fluid faq">
-          <div class="span10 offset1">
-            <h3>FAQ</h3>
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
-                  </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Frequently Asked Question.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
-                  </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    A question which is commonly asked by users.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
+      <p>
+        Get in contact for course details and further information <br>
+        <a href="mailto:info@softwaretestingacademy.org?Subject=Software%20Testing%20Bootcamp%20Info" target="_top">
+        Send Mail</a>
+      </p>
 
       <!-- started of footer -->
 
@@ -346,7 +340,8 @@
           <P>Created and managed by <a href="http://scg.io">scg.io</a> </P>
         </footer>
       </div>
-    </div>
+
+      <!-- end of footer --> 
 
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
