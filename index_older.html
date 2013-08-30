@@ -4,13 +4,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+
+    <meta NAME="description" CONTENT="Software Testing Academy provides technical and development training for Testers and QA Engineers">
+    <meta NAME="keywords" CONTENT="automated,software,testing,development,software industry,software tester,quality assurance,cdt, ET, context driven testing, exploratory testing, automation, rails, nodejs, ">
+
     <title>Software Testing Academy</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet"> 
+    <link href="http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> 
+
+        <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet"> 
+        <link href="http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">   
+
+        <link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ledger' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Chau+Philomene+One' rel='stylesheet' type='text/css'>
+
+    <meta property="og:image" content="" />  
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           rel="stylesheet" type="text/css">
@@ -53,6 +66,8 @@
         text-align: center;
       }
       p.lead {
+
+        font-family: 'Happy Monkey', Helvetica, Arial, sans-serif;
         padding-top: 1.5%;
         font-size: 24px;
         line-height: 30px;
@@ -105,6 +120,34 @@
         font: bold;
       }
 
+      .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        padding-left: 250px;
+        height: 0;
+      }
+      .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+        /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+       div.addthis_toolbox {
+        width:180px;
+        margin: 0 auto;
+        float: right;
+       }
+       
+        .navbar a.brand {
+
+        font-family: 'Chau Philomene One', sans-serif;
+        font-size: 25px;
+       }
+
     </style>
   </head>
   <body>
@@ -128,23 +171,52 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
+
+<!--
+
           <button type="button" class="btn btn-navbar"
                   data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+
+-->                  
           </button>
-          <a class="brand" href="#">Software Testing Academy</a>
+          <a class="brand" href="#" style="padding-left:20px;">Software Testing Academy</a>
+
+<!--
+
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="/about.html">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </nav>
+          </div>
+
+-->          
+          <!--/.nav-collapse -->
+
+              </div>
+              </div>  
+      </nav>
+
+            <!-- AddThis Smart Layers BEGIN -->
+            <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-521b23ff2ca11f3b"></script>
+            <script type="text/javascript">
+              addthis.layers({
+                'theme' : 'transparent',
+                'share' : {
+                  'position' : 'right',
+                  'numPreferredServices' : 5
+                }, 
+                'follow' : {
+                  'services' : [
+                    {'service': 'facebook', 'id': 'SoftwareTestingAcademy'},
+                    {'service': 'linkedin', 'id': 'software-testing-academy'}
+                  ]
+                }   
+              });
+            </script>
+            <!-- AddThis Smart Layers END -->
 
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
     <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
@@ -157,14 +229,14 @@
         <div class="span12">
           <h1 style="font-size: 50px">Coming Soon ...</h1><br>
           <h1 style="font-size: 50px">Software Testing Bootcamp</h1><br>
-          <h1 style="font-size: 40px">Brisbane January 2014</h1>
+          <h1 style="font-size: 40px">Brisbane January 2014</h1><br>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Technical workshop for Testers and QA Engineers</p>
+          <p class="lead">Workshop for Testers, QA Engineers and anyone interested in a career in Software Testing</p>
         </div>
       </div>
       <!--
@@ -176,77 +248,23 @@
         </div>
       -->
 
-             <div class="span5 offset3 actions">
-          <div class="row-fluid">
-          <div class="span8 offset2">
-            <div class="row-fluid statistics">
-              <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
-                <div class="linediv-l">
-                <h3>1000</h3> <p>backers</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-r">
-                <h3>10</h3> <p>days left</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row-fluid">
-          <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-            <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
-              <div class="bar bar-warning" style="width: 40%;"></div>
-            </div>
-          </div>
-          </div>
-          <div class="row-fluid">
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <a class="coinbase-button" data-code="8288953343befaacda617a4a73e3538f" href="https://coinbase.com/checkouts/8288953343befaacda617a4a73e3538f">Pay With Bitcoin
-            </a>
-            <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-          </div>
-          </div>
-          <div class="row-fluid">
-          <div class="span8 offset2 social">
-            <!-- Social buttons are not included in default Bootstrap. -->
-            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+      <div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+	<iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/5wlor58VnOo" frameborder="0" allowfullscreen></iframe>
+	
+    </div>
 
-            <!-- AddThis Button BEGIN -->
-            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-              <a class="addthis_button_preferred_1"></a>
-              <a class="addthis_button_preferred_2"></a>
-              <a class="addthis_button_compact"></a>
-              <a class="addthis_counter addthis_bubble_style"></a>
-            </div>
-             <script type="text/javascript">var addthis_config = 
-              {"data_track_addressbar":true};</script>
-             <script type="text/javascript" 
-                     src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e5f5d9549fdf9b"></script>
-            <!-- AddThis Button END -->
-          </div>
-          </div>
-        </div>
-        </div>
-      </div>
 
         <!-- initial section -->
 
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
+
+        <img class="img-polaroid" alt="Ruby on Rails" src="http://placehold.it/450x250">
+
+<!--        
           <img class="img-polaroid" alt="Ruby on Rails" src="https://s3.amazonaws.com/Testacademy/images/Rails-logo.jpg">
+-->          
         </div>
         <div class="span5 copy">
 		      <div class="sectionheading">Testing Tools</div><br>
@@ -274,20 +292,24 @@
         <div class="span5 offset1 copy copy-right">
           <div class="sectionheading">Testing Strategies </div><br>
 
-				* Critical Thinking in Software Testing <br>
-				* Black box testing<br>
-				* Charters and session testing<br>
-				* Verification and validation<br>
-				* Building Test Cases<br>
-				* Risk analysis and decision making<br>
-				* White box and Grey box<br>
-				* Oracles and Bug Finding <br>
-				* Test Reports and Bug Reporting <br>
-				* Communication with Stakeholders<br>
+				Critical Thinking in Software Testing <br>
+				Black box testing<br>
+				Charters and session testing<br>
+				Verification and validation<br>
+				Building Test Cases<br>
+				Risk analysis and decision making<br>
+				White box and Grey box<br>
+				Oracles and Bug Finding <br>
+				Test Reports and Bug Reporting <br>
+				Communication with Stakeholders<br>
         </div>
 
         <div class="span5 asset">
+
+        <img class="img-polaroid" alt="iOS 6 and 7" src="http://placehold.it/450x250">
+        <!--
           <img class="img-polaroid" alt="iOS 6 and 7" src="https://s3.amazonaws.com/Testacademy/images/ios.jpg">
+         --> 
         </div>
       </div>
 
@@ -295,7 +317,12 @@
 
         <div class="row-fluid section3">
         <div class="span5 offset1 asset">
+        <img class="img-polaroid" alt="Ruby on Rails" src="http://placehold.it/450x250">
+<!--
+
           <img class="img-polaroid" alt="Ruby on Rails" src="https://s3.amazonaws.com/Testacademy/images/Rails-logo.jpg">
+
+-->          
         </div>
         <div class="span5 copy">
         <div class="sectionheading">Real World Testing </div><br>
@@ -309,44 +336,11 @@
 	        </div>
 	      </div>
 
-      <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
-      <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
-      <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
-
-      <div class="row-fluid faq">
-          <div class="span10 offset1">
-            <h3>FAQ</h3>
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
-                  </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Frequently Asked Question.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
-                  </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    A question which is commonly asked by users.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
+      <p>
+        Get in contact for course details and further information <br>
+        <a href="mailto:info@softwaretestingacademy.org?Subject=Software%20Testing%20Bootcamp%20Info" target="_top">
+        Send Mail</a>
+      </p>
 
       <!-- started of footer -->
 
@@ -355,11 +349,14 @@
           <P>Created and managed by <a href="http://scg.io">scg.io</a> </P>
         </footer>
       </div>
-    </div>
+
+      <!-- end of footer --> 
 
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
     <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+
       <script>
+
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
